@@ -1,0 +1,121 @@
+#C++ Keyword
+키워드 갯수 
+C++ 90
+JAVA 50 
+C 32
+PYTHON 33
+
+#C++ Preprocessor
+C++ Preprocessor doesn't understand C++ 
+It simply follows the preprocessor directives and gets the source code ready for the compiler 
+the compiler is the program that does understand C++
+
+#the main() function 
+int main (int argc, char* argv[]){
+}
+program.exe argument1 argument2
+
+#namespaces
+name conflict 가능성을 줄이고자 해결하기 위해서 
+version
+std::cin
+using namespace std; // large program에 부적절함. 
+using std::cout; // use only what you need 
+
+#cout and <<
+insert the data into the cout stream 
+cout << data;
+
+can be chained 
+cout << "data 1 is " << data1;
+
+#cin and >> 
+extract data from the cin stream based on data's type
+cin >> data;
+
+can be chained 
+cin >> data1 >> data2;
+
+can fail if the entered data cannot be interpreted
+data could have an undetermined value. 
+
+
+cin extraction uses white space that is 
+spaces, tabs, new lines as terminating the value being extracted.
+if you put spaces between the things that you type in,
+the spaces will be ignored.
+
+extract data from the cin stream based on data's type
+cin >> data;
+
+can be chained
+cin >> data1 >> data2
+
+#declaring and initializing 
+data type 을 만들 수 있다
+Account franks_account;
+Person james;
+
+
+
+#variable 
+random access memory is a contiguous block of storage. 
+메모리 주소에 이름을 붙여 준 것이 variable 
+
+#initializing Variables 
+int age; // uninitialized 
+int age = 21; // C-like initialization
+int age (21); // constructor initialization
+int age {21}; // C++ list initilization syntax 
+
+# size and precision of c++'s primitive data types
+
+char exactly one byte. at least 8bits. 
+char16_t at least16
+char32_t at least 32 
+
+integer types (type name/ size&precision)
+signed short at least 16bits. 
+signed int at least 16bits
+signed long at least 32bits
+signed long long at least 64bits. 
+
+unsigned short int at least 16bits. 
+unsigned int at least 16bits
+unsigned long at least 32bits
+unsigned long long at least 64bits. 
+*unsigned는 0또는 양수 
+
+type name / size&typical precision / typical Range
+float /  &7 decimal digits / 1.2x 10^-38 to 3.4x 10^38
+double / no less than float & 15 decimal digits / 2.2x 10^-308 to 1.8x 10^308
+long double / no less than double& 19 decimal digits / 3.3x10^-4932 to 1.2x10^4932
+
+리얼 넘버로 파이는 무한 수지만 
+computers store an approximation of the real number. 
+
+bool / usually 8 bits true or false(C++ keywords) 
+
+
+#climits for integer types
+#include <climits> 
+//defined minimum values 이건 상수! 
+CHAR_MIN   CHAR_MAX
+INT_MIN
+SHRT_MIN
+LONG_MIN
+LLONG_MIN
+
+
+
+#cfloat for floating point types 
+#include <cfloat>
+
+예시) int age {21}; 변수의 크기를 측정하려면 
+sizeof(age) 또는 sizeof age
+
+
+
+
+
+
