@@ -4,4 +4,4 @@ I strongley
 # Tutorial List
 
 DAY01. Structure of a C++ Program
-DAY02.
+DAY02. Constants

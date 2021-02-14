@@ -9,5 +9,6 @@ int main()
     cin >> answer;
     cout << "Amazing!! That's my favorite number too!\nNo really!!,"
          << answer << "is my favorite number" << endl;
-    return 0;
+
+        return 0;
 }
